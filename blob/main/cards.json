@@ -1,0 +1,47 @@
+{
+  "last_updated": "2025-11-21",
+  "categories": {
+    "groceries": [5411],
+    "gas": [5541, 5542, 5543],
+    "restaurants": [5812, 5813],
+    "travel": [4511, 4722, 7011],
+    "online_shopping": [5311, 5399],
+    "default": []
+  },
+  "cards": [
+    {
+      "id": "chase_freedom",
+      "issuer": "Chase",
+      "name": "Chase Freedom Flex",
+      "rewards": {
+        "groceries": 3,
+        "gas": 5,
+        "restaurants": 3,
+        "default": 1
+      },
+      "rotating_categories": {
+        "Q4_2025": { "online_shopping": 5 }
+      }
+    },
+    {
+      "id": "amex_gold",
+      "issuer": "American Express",
+      "name": "Amex Gold",
+      "rewards": {
+        "groceries": 4,
+        "restaurants": 4,
+        "default": 1
+      }
+    },
+    {
+      "id": "bofa_cash",
+      "issuer": "Bank of America",
+      "name": "BoA Cash Rewards",
+      "rewards": {
+        "groceries": 2,
+        "gas": 3,
+        "default": 1
+      }
+    }
+  ]
+}
